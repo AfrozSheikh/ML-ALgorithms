@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as  plt
 x = np.array([1,2,3,4,5])
 from scipy.interpolate import interp1d
-
+# ok 
 
 ## interpolate  the data using linear interpolation 
 # y = np.array([2,4,6,8,10])
