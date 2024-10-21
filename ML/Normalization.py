@@ -7,7 +7,7 @@ min_max = MinMaxScaler()
 a = min_max.fit(df[['distance' , 'fare']])
 b=min_max.transform(df[['distance' , 'fare']])
 
-# print(b)
+
 
 
 
