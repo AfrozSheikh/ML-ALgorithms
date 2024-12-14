@@ -1,8 +1,29 @@
-# import pandas as pd  
-import numpy as np 
-import matplotlib.pyplot as plt
-import seaborn as sns 
-ti  = sns.load_dataset("titanic")
+
+
+import pandas as pd
+df = pd.read_csv("titanic.csv")
+print(df.head()) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# # import pandas as pd  
+# import numpy as np 
+# import matplotlib.pyplot as plt
+# import seaborn as sns 
+# ti  = sns.load_dataset("titanic")
 
 # x = np.linspace(0,10,11) 
 # y = np.sin(x) 
@@ -39,5 +60,7 @@ ti  = sns.load_dataset("titanic")
 # })
 # c  = pd.merge(a,b)
 # print(c)
-a = sns.heatmap(ti.isnull())
-plt.show()
+# a = sns.heatmap(ti.isnull())
+# plt.show()
+
+

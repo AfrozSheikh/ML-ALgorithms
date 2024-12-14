@@ -13,7 +13,7 @@ for i in total_Bill:
     normalized_daata.append((i - mean) / std)
 
 sns.histplot(normalized_daata)
-
+plt.show()
 
 
 # sam can be done by 
